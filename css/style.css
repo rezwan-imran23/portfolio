@@ -1,1 +1,88 @@
-*{padding: 0; margin: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*{margin: 0;padding: 0;}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montez', cursive; */
+}
+.nav-section{
+    width: 100%;
+    height: 100px;
+    /* margin: auto; */
+}
+
+.navbar{
+
+width: 96%;
+
+margin: auto;
+
+display: flex;
+}
+.logo{
+    margin-top: 18px;
+}
+.logo-bar{width: 20%;} 
+
+.menu{
+    width: 80%;
+    height: 100px;
+} 
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+}
+ul li{
+    padding: 42px;
+    font-weight: 600;
+} 
+ul li a{} 
+
+h1{ font-size: 50px;}
+
+.my-name{
+    color: #FFA505;
+    font-family: 'Montez', cursive;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+}
+
+.half-width img{
+    width: 100%;
+    margin-left: 3%;
+}
+
+section{margin-top: 100px;}
+p{text-align: justify;}
+
+button{
+    
+height: 50px;
+    
+width: 160px;
+    
+margin-top: 25px;
+    
+background-color: #FB6454;
+    
+border-radius: 8px;
+    
+font-weight: 900;
+    
+font-size: x-large;
+    
+border: none;
+    
+color: white;
+    
+font-size: 25px;
+    
+text-transform: uppercase;
+}
+.right-img{}
